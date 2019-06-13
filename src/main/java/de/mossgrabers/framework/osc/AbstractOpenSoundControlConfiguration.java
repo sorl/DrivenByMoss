@@ -25,7 +25,7 @@ public abstract class AbstractOpenSoundControlConfiguration extends AbstractConf
     /** ID for filtering heartbeat OSC messages from logging. */
     public static final Integer   FILTER_HEARTBEAT_COMMANDS = Integer.valueOf (52);
 
-    protected static final String DEFAULT_SERVER            = "127.0.0.1";
+    protected static final String DEFAULT_SERVER            = "touchosc.lan";
 
     private boolean               logInputCommands          = false;
     private boolean               logOutputCommands         = false;
